@@ -223,7 +223,7 @@ const Home = () => {
     <div className="relative h-screen overflow-hidden">
       <img
         className="w-16 absolute left-5 top-5"
-        src="/assets/rapigo_rapigo_logo.png"
+        src="/assets/rapigo_logo.png"
         alt=""
       />
 

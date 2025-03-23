@@ -7,7 +7,7 @@ const Start = () => {
       <div className="bg-[url(/assets/traffic_light.jpg)] bg-cover bg-center h-screen pt-2 flex flex-col justify-between w-full">
         <img
           className="w-[8rem] ml-2"
-          src="/assets/rapigo_rapigo_logo.png"
+          src="/assets/rapigo_logo.png"
           alt=""
         />
         <div className="bg-white pb-7 px-4 py-4 flex flex-col justify-center items-center">
