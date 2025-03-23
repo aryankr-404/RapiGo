@@ -116,7 +116,7 @@ const Riding = () => {
 
       <div className="h-1/2 p-4">
         <div className="flex item-center justify-between">
-          <img className="h-14" src="src/assets/car.png" alt="" />
+          <img className="h-14" src="/assets/car.png" alt="" />
           <div className="text-right">
             <h2 className="font-medium text-lg capitalize">
               {rideData?.captain?.fullName.firstName}
