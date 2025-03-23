@@ -11,7 +11,7 @@ const WaitingForDriver = (props) => {
   } else if (vehicleType === "auto") {
     imageUrl = "/assets/auto.png";
   } else {
-    imageUrl = "/assets/default_vehicle.png";
+    imageUrl = "/assets/car.png";
   }
 
   return (

@@ -33,7 +33,7 @@ const CaptainRiding = () => {
   return (
     <div className="h-screen">
       <div className="fixed p-2 t-0 flex items-center justify-between w-full">
-        <img className="w-16" src="/assets/_logo.png" alt="" />
+        <img className="w-16" src="/assets/_rapigo_logo.png" alt="" />
         <Link
           to="/captain-home"
           className="bg-white h-10 w-10 rounded-full flex items-center justify-center"
