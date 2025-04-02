@@ -1,6 +1,6 @@
 # RapiGo - A Web-Based Smart Ride-Sharing Solution
 
-RapiGo is a full-stack ride-hailing application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that provides functionality similar to Ola/Rapido.
+RapiGo is a full-stack ride-hailing web application inspired by platforms like Rapido. Built with the MERN stack and powered by real-time location tracking via Socket.IO and Google Maps, it offers a seamless ride-booking experience with secure payments, live ride updates, and OTP verification — all in a modern, responsive UI.
 
 ## 🚀 Features
 
@@ -45,25 +45,6 @@ RapiGo is a full-stack ride-hailing application built with the MERN stack (Mongo
 - Real-time location tracking
 - Interactive map interface
 - Live ride status updates
-
-## 📝 Environment Variables
-
-Create `.env` files in both frontend and backend directories with the following:
-
-```env
-# Backend
-PORT=4000
-DB_CONNECT=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-GOOGLE_MAPS_API=your_google_maps_api_key
-RAZORPAY_TEST_MODE_KEY_ID=your_razorpay_key
-RAZORPAY_TEST_MODE_KEY_SECRET=your_razorpay_secret
-
-# Frontend
-VITE_BASE_URL=http://localhost:4000
-VITE_GOOGLE_MAPS_API=your_google_maps_api_key
-VITE_RAZORPAY_TEST_MODE_KEY_ID=your_razorpay_key
-```
 
 ## 🚀 Getting Started
 
