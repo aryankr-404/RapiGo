@@ -46,25 +46,6 @@ RapiGo is a full-stack ride-hailing application built with the MERN stack (Mongo
 - Interactive map interface
 - Live ride status updates
 
-## 📝 Environment Variables
-
-Create `.env` files in both frontend and backend directories with the following:
-
-```env
-# Backend
-PORT=4000
-DB_CONNECT=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-GOOGLE_MAPS_API=your_google_maps_api_key
-RAZORPAY_TEST_MODE_KEY_ID=your_razorpay_key
-RAZORPAY_TEST_MODE_KEY_SECRET=your_razorpay_secret
-
-# Frontend
-VITE_BASE_URL=http://localhost:4000
-VITE_GOOGLE_MAPS_API=your_google_maps_api_key
-VITE_RAZORPAY_TEST_MODE_KEY_ID=your_razorpay_key
-```
-
 ## 🚀 Getting Started
 
 1. Clone the repository
